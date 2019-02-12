@@ -1,0 +1,157 @@
+[29-Jan-2019 10:42:20 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::get_by_id() in /home/thecanadianfibre/public_html/core/init.php:36
+Stack trace:
+#0 /home/thecanadianfibre/public_html/core/includes.php(19): require_once()
+#1 /home/thecanadianfibre/public_html/views/users/edit.php(2): require_once('/home/thecanadi...')
+#2 {main}
+  thrown in /home/thecanadianfibre/public_html/core/init.php on line 36
+[29-Jan-2019 10:43:04 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::get_by_id() in /home/thecanadianfibre/public_html/core/init.php:36
+Stack trace:
+#0 /home/thecanadianfibre/public_html/core/includes.php(19): require_once()
+#1 /home/thecanadianfibre/public_html/views/users/edit.php(2): require_once('/home/thecanadi...')
+#2 {main}
+  thrown in /home/thecanadianfibre/public_html/core/init.php on line 36
+[29-Jan-2019 11:01:39 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 11:02:37 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 11:02:38 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 11:14:20 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 11:26:26 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 11:27:03 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 11:27:04 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 11:27:09 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 11:27:10 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 11:27:22 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 11:31:22 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 12:39:48 America/Vancouver] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/thecanadianfibre/public_html/core/db.php on line 40
+[29-Jan-2019 12:42:14 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/thecanadianfibre/public_html/views/users/login.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thecanadianfibre/public_html/views/users/login.php on line 6
+[29-Jan-2019 12:43:59 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/thecanadianfibre/public_html/views/users/login.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thecanadianfibre/public_html/views/users/login.php on line 6
+[29-Jan-2019 12:44:00 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/thecanadianfibre/public_html/views/users/login.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thecanadianfibre/public_html/views/users/login.php on line 6
+[29-Jan-2019 12:45:37 America/Vancouver] PHP Warning:  require_once(/users/): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:45:37 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:45:38 America/Vancouver] PHP Warning:  require_once(/users/): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:45:38 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:45:57 America/Vancouver] PHP Warning:  require_once( ): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:45:57 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required ' ' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:46:37 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:46:37 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:46:38 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:46:38 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:46:52 America/Vancouver] PHP Warning:  require_once(/.signup.php/): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:46:52 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/.signup.php/' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:47:31 America/Vancouver] PHP Warning:  require_once(/signup.php/): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:47:31 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php/' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:47:32 America/Vancouver] PHP Warning:  require_once(/signup.php/): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:47:32 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php/' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:48:10 America/Vancouver] PHP Warning:  require_once(/home/thecanadianfibre/public_html/views/users): failed to open stream: Success in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:48:10 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:49:10 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:49:10 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:49:24 America/Vancouver] PHP Warning:  require_once(users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:49:24 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required 'users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[29-Jan-2019 12:52:42 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/thecanadianfibre/public_html/views/users/login.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thecanadianfibre/public_html/views/users/login.php on line 6
+[29-Jan-2019 12:55:42 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/thecanadianfibre/public_html/views/users/login.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thecanadianfibre/public_html/views/users/login.php on line 6
+[29-Jan-2019 12:55:57 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/thecanadianfibre/public_html/views/users/login.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thecanadianfibre/public_html/views/users/login.php on line 6
+[29-Jan-2019 12:59:02 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/thecanadianfibre/public_html/views/users/login.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thecanadianfibre/public_html/views/users/login.php on line 6
+[29-Jan-2019 12:59:18 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/thecanadianfibre/public_html/views/users/login.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thecanadianfibre/public_html/views/users/login.php on line 6
+[29-Jan-2019 21:02:23 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thecanadianfibre/public_html/views/users/signin.php on line 48
+[29-Jan-2019 13:02:52 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/thecanadianfibre/public_html/views/users/login.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thecanadianfibre/public_html/views/users/login.php on line 6
+[29-Jan-2019 13:10:53 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/thecanadianfibre/public_html/views/users/login.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/thecanadianfibre/public_html/views/users/login.php on line 6
+[29-Jan-2019 15:06:48 America/Vancouver] PHP Fatal error:  Uncaught Error: Call to undefined method User::get_by_id() in /home/thecanadianfibre/public_html/core/init.php:34
+Stack trace:
+#0 /home/thecanadianfibre/public_html/core/includes.php(19): require_once()
+#1 /home/thecanadianfibre/public_html/views/users/add.php(2): require_once('/home/thecanadi...')
+#2 {main}
+  thrown in /home/thecanadianfibre/public_html/core/init.php on line 34
+[31-Jan-2019 16:18:33 America/Vancouver] PHP Warning:  require_once(/users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:18:33 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:19:32 America/Vancouver] PHP Warning:  require_once(/users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:19:32 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:26:40 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:26:40 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:08 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:08 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:09 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:09 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:13 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:13 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:39 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:39 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:40 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:40 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:54 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:27:54 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:29:22 America/Vancouver] PHP Warning:  require_once(/users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:29:22 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:29:35 America/Vancouver] PHP Warning:  require_once(/users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:29:35 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:29:43 America/Vancouver] PHP Warning:  require_once(/users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:29:43 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 12
+[31-Jan-2019 16:31:59 America/Vancouver] PHP Warning:  require_once(/users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 17
+[31-Jan-2019 16:31:59 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 17
+[31-Jan-2019 16:32:01 America/Vancouver] PHP Warning:  require_once(/users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 17
+[31-Jan-2019 16:32:01 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 17
+[31-Jan-2019 16:36:11 America/Vancouver] PHP Warning:  require_once(/users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 15
+[31-Jan-2019 16:36:11 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 15
+[31-Jan-2019 16:38:47 America/Vancouver] PHP Warning:  require_once(/users/signin.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 15
+[31-Jan-2019 16:38:47 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signin.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 15
+[31-Jan-2019 16:39:47 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:39:47 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:40:04 America/Vancouver] PHP Warning:  require_once(/home/thecanadianfibre/public_html/views/users): failed to open stream: Success in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:40:04 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:41:51 America/Vancouver] PHP Warning:  require_once(/home/thecanadianfibre/public_html/views/users): failed to open stream: Success in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:41:51 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:45:53 America/Vancouver] PHP Warning:  require_once(/users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:45:53 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:46:47 America/Vancouver] PHP Warning:  require_once(/users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:46:47 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:52:31 America/Vancouver] PHP Warning:  require_once(../signin.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 16:52:31 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '../signin.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[31-Jan-2019 17:52:56 America/Vancouver] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thecanadianfibre/public_html/models/user.php on line 107
+[31-Jan-2019 18:20:01 America/Vancouver] PHP Warning:  require_once(../../users/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 16
+[31-Jan-2019 18:20:01 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '../../users/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 16
+[31-Jan-2019 18:21:01 America/Vancouver] PHP Warning:  require_once(/signup.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 16
+[31-Jan-2019 18:21:01 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/signup.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 16
+[31-Jan-2019 18:21:31 America/Vancouver] PHP Warning:  require_once( ): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 16
+[31-Jan-2019 18:21:31 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required ' ' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 16
+[01-Feb-2019 02:59:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thecanadianfibre/public_html/views/users/signin.php on line 52
+[01-Feb-2019 18:33:49 UTC] PHP Warning:  require_once(../core/includes.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/postpage.php on line 1
+[01-Feb-2019 18:33:49 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/includes.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/postpage.php on line 1
+[01-Feb-2019 10:34:05 America/Vancouver] PHP Warning:  require_once(../elements/html_head.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/postpage.php on line 5
+[01-Feb-2019 10:34:05 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '../elements/html_head.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/postpage.php on line 5
+[01-Feb-2019 14:16:58 America/Vancouver] PHP Warning:  Illegal string offset 'user_logged_in' in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[01-Feb-2019 14:17:00 America/Vancouver] PHP Warning:  Illegal string offset 'user_logged_in' in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[01-Feb-2019 14:18:00 America/Vancouver] PHP Warning:  Illegal string offset 'user_logged_in' in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[01-Feb-2019 14:18:15 America/Vancouver] PHP Warning:  Illegal string offset 'user' in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[01-Feb-2019 14:18:30 America/Vancouver] PHP Warning:  Illegal string offset 'user' in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[01-Feb-2019 14:18:47 America/Vancouver] PHP Warning:  Illegal string offset 'user_logged_in' in /home/thecanadianfibre/public_html/views/users/signin.php on line 14
+[03-Feb-2019 09:15:04 America/Vancouver] PHP Warning:  require_once(/login.php): failed to open stream: No such file or directory in /home/thecanadianfibre/public_html/views/users/signin.php on line 16
+[03-Feb-2019 09:15:04 America/Vancouver] PHP Fatal error:  require_once(): Failed opening required '/login.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/thecanadianfibre/public_html/views/users/signin.php on line 16

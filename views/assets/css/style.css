@@ -1,0 +1,249 @@
+/* Nav Element */
+
+.logo-placement{
+        padding-top: 75px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        background-image: url("/assets/images/TCFT 3.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        max-height: 100px;
+        max-width: 100%;
+}
+
+.navbar {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.nav-item {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+@media(max-width: 767px){
+    #banner-logo {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Home Page */
+
+.business-form {
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+
+}
+
+#shop-selections {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom:50px;
+    background-image: url("/assets/images/yarn-skeins-string-multicolor-1571577.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+#search-choices {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+
+#shop-title p{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+/* my-business.php */
+
+#business-form {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#business-display {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    max-width: 100%;
+}
+
+#business-display h3{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.business-display-field {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.business-listing p{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+@media(max-width: 767px){
+    #shop-selections {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+#shop-selections h5{
+    font-size: 20px;
+}
+#search-choices h4{
+    font-size: 10px;
+}
+}
+
+
+.business-post{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    max-width: 100%;
+}
+.review-form {
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    max-width: 100%;
+}
+
+/* Edit Page */
+
+h2 {
+    font-size: 20px;
+}
+
+#img-preview {
+    max-width: 150px;
+    display: block;
+}
+
+#add-business-form {
+    display: none;
+
+}
+
+#show-business-form-btn {
+    cursor: pointer;
+}
+
+.card-header {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    max-width: 100%;
+}
+
+/* Contact Page */
+#contact_info {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+
+}
+
+#contact-group {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+
+}
+
+.card-header {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+
+}
+
+@media(max-width: 767px){
+    #contact_info {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #contact-group {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    }
+
+    /* Guide Page */
+
+#guide-info {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-position: center;
+    }
+
+#guide-info h4{
+    font-size: 18px;
+}
+
+#booklet-image {
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    background-image: url("/assets/images/pexels-photo-1530262.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+
+@media(max-width: 767px){
+    #guide-info {
+        padding-left: 20px;
+        padding-right: 20px;
+    }#guide-info h4{
+        font-size: 20px;
+    }#guide-info p{
+        font-size: 18px;
+    }
